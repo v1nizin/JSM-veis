@@ -20,12 +20,13 @@ export default {    name: "Home"    }
 
 <style>
 .h1_home {
-    margin-top: 10vh;
-    margin-left: vh;
+    margin-left: 30vh;
 }
 .Inputs {
-    margin-bottom: 50vh;
-    margin-right: 30vh;
+    margin-bottom: 100vh;
+    margin-top:  30vh;
+    margin-left: 50vh;
+    display: ;
 }
 
 input {
