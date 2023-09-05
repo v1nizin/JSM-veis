@@ -5,7 +5,7 @@ export default {    name: "Home"    }
 <template>
     <div class="Inputs">
             <h1 class="h1_home">Cadastro de Móveis</h1>
-    
+
             <input class="input_movel" type="text" placeholder="Móvel">
             
             <input type="text" placeholder="Cor">
@@ -18,22 +18,21 @@ export default {    name: "Home"    }
     </div>    
 </template>
 
-<style>
-.h1_home {
-    margin-left: 30vh;
-}
+<style scoped>
+
 .Inputs {
-    margin-bottom: 100vh;
-    margin-top:  30vh;
-    margin-left: 50vh;
-    display: ;
+    margin-left: 30px;
 }
 
 input {
     height: 5vh;
     margin-bottom: 30px;
+    margin-top: 2px;
     border-radius: 30px;
-    margin-left: 30vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+   
 }
 
 .Cadastrar {
@@ -42,10 +41,9 @@ input {
     border-radius: 30px;
     height: 50px;
     width: 150px;
-    
 }
 
-.input_movel {
-    margin-top: 3.8vh;
+.h1_home {
+    margin-left: 255px;
 }
 </style>

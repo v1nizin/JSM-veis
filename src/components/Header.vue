@@ -9,11 +9,5 @@ export default {    name: 'Header'  }
 </template>
 
 <style>
-    .JSMoveis {
-        margin-left: ;
-    }
 
-    #app {
-        margin: 0px;
-    }
 </style>

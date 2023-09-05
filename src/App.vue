@@ -1,20 +1,20 @@
 <script setup>
-import Home from "./components/Home.vue";
-import Header from "./components/Header.vue"
-import Nav from "./components/Nav.vue"
-import NavBarLateral from "./components/NavBarLateral.vue";
+import Home from "./components/Home.vue"
+import Nav from "./components/Nav.vue";
 
 </script>
 
 <template>
-    <Home></Home>
     <Nav></Nav>
-    <NavBarLateral></NavBarLateral>
+    <Home></Home>
+
 </template>
 
-<style scoped>
+<style>
     #app {
         padding: 0px;
+        margin: 0px;
     }
+    
 
 </style>
