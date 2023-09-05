@@ -1,13 +1,13 @@
 <script setup>
 import Home from "./components/Home.vue"
 import Nav from "./components/Nav.vue";
+import Login from "./components/Login.vue"
 
 </script>
 
 <template>
     <Nav></Nav>
-    <Home></Home>
-
+    <Login></Login>
 </template>
 
 <style>

@@ -15,7 +15,7 @@ export default { name:"Nav" }
     <div id="nav-content" tabindex="0">
       <ul>
         <li><a href="#0">Home</a></li>
-        <li><a href="#0">Services</a></li>
+        <Routerlink><li><a href="#0">Login</a></li> </Routerlink> 
         <li><a href="#0">Blog</a></li>
         <li><a href="#0">About</a></li>
         <li><a href="#0">Contact</a></li>
@@ -40,7 +40,6 @@ strong {
 .page {
   width: 100%;
   height: 100vh;
-  background: #fdfdfd;
   font-family: 'Encode Sans Condensed', sans-serif;
   font-weight: 600;
   letter-spacing: .03em;
@@ -52,7 +51,7 @@ header {
   position: fixed;
   width: 100%;
   height: 70px;
-  background: #212121;
+  background: #df7d0c;
   color: #fff;
   justify-content: center;
   align-items: center;
@@ -132,7 +131,7 @@ main small {
   display: block;
   width: 100%;
   height: 3px;
-  background: #aaa;
+  background: #ffffff;
   transition: .3s;
 }
 .icon-bar + .icon-bar {
